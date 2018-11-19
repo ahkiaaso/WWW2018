@@ -7,9 +7,8 @@ body{
 /*Header*/
 
 #header{
-	height:234px:
 	background: url ("../images/Space.jpeg") no-repeat left top;
-	clear: both;
+	background-size: auto;
 }
 /*Header Menu*/
 #topmenu {
