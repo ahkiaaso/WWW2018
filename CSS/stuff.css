@@ -1,3 +1,14 @@
+body {
+background: #FFB6C1 url(images/Space.jpeg) repeat-x;
+  
+}
+#wrap {
+  width:700px;
+  margin:0px auto 15px auto;
+  font-family:Verdana, Arial, Helvetica;
+  font-size:14px;
+  color: #FF1493;
+}
 /* Header */
 #header {
   height:242px;
