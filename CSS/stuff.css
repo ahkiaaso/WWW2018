@@ -16,6 +16,28 @@ background: #FFB6C1 url(images/Space.jpeg) repeat-x;
   font-family:Verdana, Arial, Helvetica;
   color: #5F9EA0;
   }
+
+#topbar{
+	height:78px;
+}
+table {
+border-spacing: 5px;
+}
+
+table, th, td {
+border:1px solid red;
+padding: 15px;	
+}
+th {
+text-align: left;
+}
+
+table#t1 {
+width: 75%;
+background-color: yellow;
+border: 1px;
+}
+
 /*Header Menu*/
 #topmenu {
           display:block;
