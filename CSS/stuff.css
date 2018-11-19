@@ -6,9 +6,9 @@ body{
 /*Header*/
 
 #header{
-	
-	background-image: url("Space.jpeg") no-repeat left top;
-	
+	height:234px:
+	background-image: url("https://github.com/ahkiaaso/WWW2018/blob/master/images/Space.jpeg") no-repeat left top;
+	clear: both;
 }
 /*Header Menu*/
 #topmenu {
