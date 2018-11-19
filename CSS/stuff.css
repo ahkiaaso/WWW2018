@@ -3,13 +3,6 @@ body{
 
 }
 /*Header*/
-
-#header{
-	
-    background-image: url("../images/flowers.jpg") 
-  
-    padding: 100px;
-
 }
 /*Header Menu*/
 #topmenu {
@@ -18,8 +11,9 @@ body{
 	padding:0 0px 0px 500px;
 	float: right;
 	width: 415px;
-	background-color:#ff3333;
-	position: fixed;
+	background: url("../images/flowers.jpg") no-repeat center center;
+	background-size: auto;
+	
 }
 #topmenu li {
 	display:inline;
