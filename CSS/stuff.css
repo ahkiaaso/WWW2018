@@ -6,9 +6,9 @@ body{
 
 #header{
 	
-    background-color: #F1F1F1;
-    text-align: center;
-    padding: 20px;
+    background-image: url("../images/flowers.jpg") 
+  
+    padding: 100px;
 
 }
 /*Header Menu*/
