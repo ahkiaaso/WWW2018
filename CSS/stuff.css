@@ -5,8 +5,11 @@ body{
 /*Header*/
 
 #header{
-	background: url ("../images/Space.jpeg") no-repeat left top;
-	background-size: auto;
+	
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+
 }
 /*Header Menu*/
 #topmenu {
