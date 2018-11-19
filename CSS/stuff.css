@@ -1,5 +1,5 @@
 body{
-	background: #FFFFFF  url("https://github.com/ahkiaaso/WWW2018/blob/master/images/flowers.jpg") repeat-x;
+	background-image: url("https://github.com/ahkiaaso/WWW2018/blob/master/images/flowers.jpg") repeat-x;
 	}
 #wrap{
 	width:699px;
@@ -12,18 +12,18 @@ body{
 /*Header*/
 
 #header{
-	height:242px;
-	background:url("https://github.com/ahkiaaso/WWW2018/blob/master/images/Space.jpeg") no-repeat left top;
-	clear: both;
+	
+	background-image: url("https://github.com/ahkiaaso/WWW2018/blob/master/images/Space.jpeg") no-repeat left top;
+	
 }
 /*Header Menu*/
 #topmenu {
 	display:block;
 	list-style:none;
-	padding:0 0px 0px 278px;
+	padding:0 0px 0px 500px;
 	float: right;
 	width: 415px;
-	background-color:black;
+	background-color:#ff3333;
 	position: fixed;
 }
 #topmenu li {
