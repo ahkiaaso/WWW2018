@@ -1,5 +1,5 @@
 body{
-	background-image:  url("https://github.com/ahkiaaso/WWW2018/blob/master/images/Space.jpeg");
+	background: #FFFFFF  url("https://raw.githubusercontent.com/dipaish/www_dkc/master/images/bg.jpg") repeat-x;
 	}
 #wrap{
 	width:699px;
@@ -13,7 +13,7 @@ body{
 
 #header{
 	height:242px;
-	background-image:url("https://github.com/ahkiaaso/WWW2018/blob/master/images/Space.jpeg") no-repeat left top;
+	background:url("https://github.com/dipaish/www_dkc/blob/master/images/header.png?raw=true") no-repeat left top;
 	clear: both;
 }
 /*Header Menu*/
@@ -52,16 +52,16 @@ body{
 
 /*Content*/
 #content {
-	background-color: #ff9999;
+	background-color: #FFFFFF;
 }
 #mainpage {
-	width:900px;
+	width:700px;
 	float:left;
-	padding:10px 10px 5px 0px;
+	padding:5px 5px 5px 0px;
 	height:auto
 }
 #mainpage p {
-	line-height:30px;
+	line-height:22px;
 	margin:10px 0px 22px 0px;
 	text-align: justify;
 }
@@ -72,7 +72,7 @@ body{
 	font:Georgia, "Times New Roman", Times, serif; 
 	font-style:italic;}
 h1, h2, h3, h4, h5 {
-	color:#660000;
+	color:#A52A2A;
 	font-weight:bold;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5 {
 	font-size:18px;
 	padding-top: 20px;
 	padding-bottom: 5px;
-	border-bottom: 1px solid #800000;
+	border-bottom: 1px solid #B52E10;
 }
 #mainpage h3 {
 	font-size:20px;}
@@ -126,6 +126,7 @@ width: 75%;
 background-color: yellow;
 border: 1px;
 }
+
 
 
 
