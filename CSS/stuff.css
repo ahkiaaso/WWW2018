@@ -1,5 +1,5 @@
 body{
-	background-image: url("images/flowers.jpg") repeat-x;
+	background-image: url("flowers.jpg") repeat-x;
 	}
 
 
@@ -7,7 +7,7 @@ body{
 
 #header{
 	
-	background-image: url("https://github.com/ahkiaaso/WWW2018/blob/master/images/Space.jpeg") no-repeat left top;
+	background-image: url("Space.jpeg") no-repeat left top;
 	
 }
 /*Header Menu*/
