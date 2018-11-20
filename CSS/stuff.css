@@ -1,7 +1,34 @@
 body{
 	
+	background: #000d1a url(../images/Space.jpg) center;
+	
+}
+
+/* Wrap */
+	#wrap {
+		width: 700px;
+		margin: 0px auto 15px auto;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		color: #99ddff;
+		}
+
+/*Content*/
+#content {
+	color: #99ddff;
+	background: #FFFFFF;
+}
+
+/*Paragraph*/
+
+#content p {
+	width 700px;
+	text-align: justify;
+	color: #99ddff;
+	padding: 0px 10px 0px 10px;
 
 }
+
 /*Header*/
 }
 /*Header Menu*/
@@ -39,10 +66,7 @@ body{
 	background-color: #B42D0F;
 }
 
-/*Content*/
-#content {
-	background-color: #FFFFFF;
-}
+
 #mainpage {
 	width:700px;
 	float:left;
