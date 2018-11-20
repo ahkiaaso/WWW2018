@@ -117,8 +117,8 @@ h1, h2, h3, h4, h5, h6, h7 {
 	list-style: none;
 	padding: 5px 0px 5px 0px;
 	float: right;
-	width: 700px;
-	max-width: 700px;
+	width: 800px;
+	max-width: 800px;
 	background-color: #C70039;
 	position: fixed;
 }
@@ -139,36 +139,36 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 #topmenu a, #topmenu a:visited, #topmenu a:active {
-	color: #DC143C;
+	color: #FFC300;
 }
 
 #topmenu a:hover {
 	color: #C70039;
-	background-color: #DC143C;
+	background-color: #FFC300;
 }
 
 /* Footer */
 #footer {
 	margin: 0 auto;
-	width: 680px;
+	width: 600px;
 	height 50px;
 	padding: 10px;
-	color: #F08080;
+	color: #C70039;
 	text-align: center;
 	background: #800000;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 10px;
+	font-size: 12px;
 	clear: both;
 }
 
 
 /* Image */
 img {
-	margin: 25px;
+	margin: 20px;
 	height: auto;
 	width: auto;
-	max-width: 350px;
-	max-height: 350px;
+	max-width: 400px;
+	max-height: 400px;
 }
 
 /* box-sizing: border-box on all elements */
