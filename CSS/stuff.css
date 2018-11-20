@@ -32,32 +32,32 @@ body{
 /*List*/
 
 #content ol, #content ul {
-	margin: 0px 0px px 15px;
+	margin: 0px 0px 0px 10px;
 }
 
 /* Table -- taulukot */
 
 #content table {
 	border: 3px solid #FF5733;
-	margin: 0px 0px 5px 40px;
+	margin: 0px 0px 5px 30px;
 	border-collapse: collapse;
 	background: #C70039;
 }
 
 #content th {
-	border: 3px solid #FF5733;
-	padding: 5px 10px 5px 10px;
+	border: 1px solid #FF5733;
+	padding: 0px 5px 5px 0px;
 }
 
 #content td {
 	border: 1px solid #FF5733;
-	padding: 5px 10px 5px 10px;
+	padding: 0px 5px 5px 0px;
 }
 
 /* Form */
 #content form {
 	margin: 5px 0px 5px 40px;
-	padding: 5px 0px 10px 0px;
+	padding: 0px 0px 10px 0px;
 }
 
 
@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6, h7 {
 	padding: 10px;
 	color: #C70039;
 	text-align: center;
-	background: #800000;
+	background: #581845;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	clear: both;
@@ -167,8 +167,8 @@ img {
 	margin: 20px;
 	height: auto;
 	width: auto;
-	max-width: 400px;
-	max-height: 400px;
+	max-width: 500px;
+	max-height: 500px;
 }
 
 /* box-sizing: border-box on all elements */
