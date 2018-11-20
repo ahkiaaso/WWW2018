@@ -6,25 +6,25 @@ body{
 
 /* Wrap */
 	#wrap {
-		width: 700px;
-		margin: 0px auto 15px auto;
+		width: 900px;
+		margin: 0px auto 10px auto;
 		font-family: Verdana, Arial, Helvetica, sans-serif;
 		font-size: 14px;
-		color: #99ddff;
+		color: #FFC300;
 		}
 
 /*Content*/
 #content {
-	color: #99ddff;
-	background: #0033cc;
+	color: #FFC300;
+	background: #581845;
 }
 
 /*Paragraph*/
 
 #content p {
-	width 700px;
+	width 900px;
 	text-align: justify;
-	color: #99ddff;
+	color: #581845;
 	padding: 0px 10px 0px 10px;
 
 }
@@ -38,7 +38,7 @@ body{
 /* Table */
 
 #content table {
-	border: 3px solid #99ddff;
+	border: 3px solid #FF5733;
 	margin: 0px 0px 5px 60px;
 	border-collapse: collapse;
 	background: #000d33;
