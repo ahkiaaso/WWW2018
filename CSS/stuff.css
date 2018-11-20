@@ -13,13 +13,13 @@ body{
 		color: #FFC300;
 		}
 
-/*Content*/
+/*Content -- middle headers*/
 #content {
 	color: #FFC300;
 	background: #581845;
 }
 
-/*Paragraph*/
+/*Paragraph -- font*/
 
 #content p {
 	width 800px;
@@ -35,22 +35,22 @@ body{
 	margin: 0px 0px px 15px;
 }
 
-/* Table */
+/* Table -- taulukot */
 
 #content table {
 	border: 3px solid #FF5733;
-	margin: 0px 0px 5px 60px;
+	margin: 0px 0px 5px 40px;
 	border-collapse: collapse;
-	background: #000d33;
+	background: #C70039;
 }
 
 #content th {
-	border: 3px solid #99ddff;
+	border: 3px solid #FF5733;
 	padding: 5px 15px 5px 15px;
 }
 
 #content td {
-	border: 1px solid #99ddff;
+	border: 1px solid #FF5733;
 	padding: 5px 15px 5px 15px;
 }
 
