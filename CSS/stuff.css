@@ -6,7 +6,7 @@ body{
 
 /* Wrap */
 	#wrap {
-		width: 900px;
+		width: 800px;
 		margin: 0px auto 10px auto;
 		font-family: Verdana, Arial, Helvetica, sans-serif;
 		font-size: 14px;
@@ -22,9 +22,9 @@ body{
 /*Paragraph*/
 
 #content p {
-	width 900px;
+	width 800px;
 	text-align: justify;
-	color: #581845;
+	color: #FFC300;
 	padding: 0px 10px 0px 10px;
 
 }
