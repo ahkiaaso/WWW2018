@@ -4,6 +4,21 @@
   <head>    
     <title> Ahkiaaso </title>
     <link href="CSS/stuff.css" rel="stylesheet" type="text/css">
+    
+    <script>
+		function allowDrop(ev) {
+			ev.preventDefault();
+		}
+		function drag(ev) {
+			ev.dataTransfer.setData("text", ev.target.id);
+		}
+		function drop(ev) {
+			ev.preventDefault();
+			var data = ev.dataTransfer.getData("text");
+		ev.target.appendChild(document.getElementById(data));
+		}
+	</script>
+    
   </head> 
 <body>
   
@@ -39,7 +54,12 @@
    <h1> LOREM IPSUM </h1>
   
     <p> How nice of you to drop by. This is my website for school WWW-course. 
-      All images used on this site are free to use images, so none f them are mine.</p>
+      All images used on this site are free to use images, so none f them are mine. And to start your visit here is a little video </p>
+    
+  <iframe width="560" height="315"
+	src="https://www.youtube.com/watch?v=lAIGb1lfpBw"
+	frameborder="0" allowfullscreen></iframe>
+  
   <img src= "images/flowers.jpg" alt="PinkFlowers" class="center">
      
   
