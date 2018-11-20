@@ -39,7 +39,7 @@ body{
 
 #content table {
 	border: 3px solid #99ddff;
-	margin: 0px 0px 5px 40px;
+	margin: 0px 0px 5px 60px;
 	border-collapse: collapse;
 	background: #000d33;
 }
@@ -52,6 +52,12 @@ body{
 #content td {
 	border: 1px solid #99ddff;
 	padding: 5px 15px 5px 15px;
+}
+
+/* Form */
+#content form {
+	margin: 5px 0px 5px 40px;
+	padding: 5px 0px 10px 0px;
 }
 
 /*Header*/
