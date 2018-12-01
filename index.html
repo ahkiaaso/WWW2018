@@ -5,19 +5,43 @@
     <title> Ahkiaaso </title>
     <link href="CSS/stuff.css" rel="stylesheet" type="text/css">
     
-    <script>
-		function allowDrop(ev) {
-			ev.preventDefault();
-		}
-		function drag(ev) {
-			ev.dataTransfer.setData("text", ev.target.id);
-		}
-		function drop(ev) {
-			ev.preventDefault();
-			var data = ev.dataTransfer.getData("text");
-		ev.target.appendChild(document.getElementById(data));
-		}
-	</script>
+	 <script>
+function validateForm()
+{
+if (document.forms["myForm"]["gamea"].value==null || document.forms["myForm"]["gamea"].value=="")
+{
+alert("All fields must be filled out.");
+return false;
+}
+if (document.forms["myForm"]["gameb"].value==null || document.forms["myForm"]["gameb"].value=="")
+{
+alert("All fields must be filled out.");
+return false;
+}
+if (document.forms["myForm"]["gamec"].value==null || document.forms["myForm"]["gamec"].value=="")
+{
+alert("All fields must be filled out.");
+return false;
+}
+return true;
+}
+</script>
+	  
+	  
+	  
+ <script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
     
   </head> 
 <body>
