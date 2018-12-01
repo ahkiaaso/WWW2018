@@ -3,33 +3,12 @@
 <html>
   <head>    
     <title> Ahkiaaso </title>
-    <link href="CSS/stuff.css" rel="stylesheet" type="text/css">
-    
-	 <script>
-function validateForm()
-{
-if (document.forms["myForm"]["gamea"].value==null || document.forms["myForm"]["gamea"].value=="")
-{
-alert("All fields must be filled out.");
-return false;
-}
-if (document.forms["myForm"]["gameb"].value==null || document.forms["myForm"]["gameb"].value=="")
-{
-alert("All fields must be filled out.");
-return false;
-}
-if (document.forms["myForm"]["gamec"].value==null || document.forms["myForm"]["gamec"].value=="")
-{
-alert("All fields must be filled out.");
-return false;
-}
-return true;
-}
-</script>
+    <link href="CSS/stuff.css" rel="stylesheet" type="text/css">	  	  
 	  
-	  
-	  
-#div1, #div2 {
+
+</style>
+
+	#div1, #div2 {
     float: left;
     width: 100px;
     height: 35px;
@@ -37,7 +16,8 @@ return true;
     padding: 10px;
     border: 1px solid black;
 }
-</style>
+
+	
 <script>
 function allowDrop(ev) {
     ev.preventDefault();
