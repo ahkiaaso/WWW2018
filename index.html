@@ -29,13 +29,15 @@ return true;
 	  
 	  
 	  
- <script>
+<script>
 function allowDrop(ev) {
     ev.preventDefault();
 }
+
 function drag(ev) {
     ev.dataTransfer.setData("text", ev.target.id);
 }
+
 function drop(ev) {
     ev.preventDefault();
     var data = ev.dataTransfer.getData("text");
@@ -124,11 +126,10 @@ https://www.youtube.com/watch?v=lAIGb1lfpBw" target="_blank">Cat Parade</a>.
 	<img src="images/little flowers.jpeg" alt="Flowers" class="center">
 	
 <h3>Drag the pony!</h3>
-<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-<img src="images/pony.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="80" height="80">
-</div>
-<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)" id="drag2" width="80" height="80" ></div><br>
-	
+
+	<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img id="drag1" src="images/pony.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
   
   <h1 id="EXTRA"> EXTRA </h1>
 
