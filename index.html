@@ -35,6 +35,32 @@ function drop(ev) {
     ev.target.appendChild(document.getElementById(data));
 }
 </script>
+ <!--- FORM SCRIPT--->
+	  <script>
+		function validateForm() {
+		
+		var x = document.forms["contactForm"]["firstname"].value;
+		if (x == "") {
+			alert("First name must be filled out!");
+			return false;
+			}
+			
+		var y = document.forms["contactForm"]["lastname"].value;
+		if (y == "") {
+			alert("Last name must be filled out!");
+			return false;
+			}
+		
+		var z = document.forms["contactForm"]["email"].value;
+		if (z == "") {
+			alert("eMail must be filled out!");
+			return false;
+			}
+		
+		alert ("Message sent.");
+		return true;
+		}
+	</script>
     
   </head> 
 <body>
@@ -56,7 +82,7 @@ function drop(ev) {
 <li> <a href="#EXTRA">EXTRA</a>
 </li>
 	   
-<li><a href="#contact.html">GET IN TOUCH!</a>
+<li><a href="#GET IN TOUCH!">GET IN TOUCH!</a>
 </li>
        
   </ul>
@@ -180,6 +206,29 @@ https://www.youtube.com/watch?v=lAIGb1lfpBw" target="_blank">Cat Parade</a>.
 </table>
             
       <br><br><br><br>
+	
+
+<h1 id="GET IN TOUCH!"> GET IN TOUCH! </h1>
+	
+	<p> If for some reason you want to contact me, fill out this form. Fields marked with a star (*) are mandatory.</p>
+	<form name="contactForm" onsubmit="return validateForm()">
+		<b>First name: *</b><br>
+		<input type="text" name="firstname" maxlength="50"><br>
+		<br>
+		<b>Last name: *</b><br>
+		<input type="text" name="lastname" maxlength="50"><br>
+		<br>
+		<b>eMail address: *</b><br>
+		<input type="email" name="email" maxlength="200"><br>
+		<br>
+		<b>Message:</b><br>
+		<textarea name="message" maxlength="3000" size="50"></textarea><br>
+		<br>
+		<b>Location (filled automatically):</b>
+		<p id="place"></p><br>
+		<input type="submit" value="Send message">
+	</form>
+	
 
 <!---GEOLOCATION SCRIPT--->
 	
